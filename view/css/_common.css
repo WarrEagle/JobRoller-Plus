@@ -1,0 +1,208 @@
+/**
+ * JRP Stylesheet
+ *
+ * @package JRP
+ * @author Predrag Bradaric
+ * @since 1.0
+ */
+
+/** Config Sections */
+
+#jrp-title {
+}
+
+#jrp-title h2 {
+}
+
+#poststuff {
+    padding-right: 30px;
+}
+.nav-page {
+    /*margin-right: 30px;*/
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+.rcm-section {
+}
+
+.rcm-section-title {
+}
+
+.rcm-section-content {
+}
+
+.rcm-section-item {
+    position: relative;
+    margin-top: 4px;
+}
+
+.rcm-label {
+    width:160px;
+    display: inline-block;
+    clear: left;
+    text-align: left;
+}
+
+.rcm-value {
+    left: 180px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.rcm-submit {
+    width: 100%;
+    text-align: right;
+}
+
+
+/** Tooltips */
+
+.tooltip:hover {
+    /*position: relative;*/
+}
+
+.tooltip {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    display:none;
+    height: auto;
+    width: auto;
+    max-width:500px;
+    padding: 5px;
+    z-index: 100;
+    background: #f9f9f9;
+    color: #444;
+    border: 1px solid #396482;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+}
+
+.nav-tab {
+    margin-right: 0px;
+    margin-left: -4px;
+}
+
+.jrp-icon-details {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.jrp-icon-details:hover {
+    opacity: 1;
+}
+
+
+.wrap div.jrp-msg-success,
+div.jrp-msg-success,
+.wrap div.jrp-msg-info,
+div.jrp-msg-info,
+.wrap div.jrp-msg-warning,
+div.jrp-msg-warning,
+.wrap div.jrp-msg-error,
+div.jrp-msg-error {
+    padding: 6px;
+    border: solid 1px #c00;
+    margin: 8px 0 7px;
+
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wrap div.jrp-msg-success,
+div.jrp-msg-success {
+    border-color: #0c0;
+    background-color: #ebffe8;
+    /*color: #4b8e0b;*/
+}
+
+.wrap div.jrp-msg-info,
+div.jrp-msg-info {
+    border-color: #31BFF1;
+    background-color: #E5FBFF;
+    /*color: #cd0a0a;*/
+}
+
+.wrap div.jrp-msg-warning,
+div.jrp-msg-warning {
+    border-color: #FFC15C;
+    background-color: #FFF1C3;
+    /*color: #222;*/
+}
+
+.wrap div.jrp-msg-error,
+div.jrp-msg-error {
+    border-color: #c00;
+    background-color: #ffebe8;
+    /*color: #cd0a0a;*/
+}
+
+.loading-anim {
+    /*visibility: hidden;*/
+    display: none;
+    /*display: inline-block;*/
+    vertical-align: text-top;
+    margin-top: -2px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-image: url('../images/ajax-loader.gif');
+    background-repeat: no-repeat;
+}
+.loading-message {
+    display: none;
+}
+
+.button [class^="icon-"],
+.button [class*=" icon-"] {
+    margin-top: 0px;
+}
+
+.dataTable .odd,
+.dataTable .even {
+    background-color: #fcfcfc;
+}
+
+.close-message {
+    cursor: pointer;
+}
+
+#poststuff,
+#wpbody-content .metabox-holder {
+    padding-top: 0px;
+}
+
+#normal-sortables {
+    padding-top: 8px;
+}
+
+.pullRight {
+    float: right;
+}
+
+.dataTable .opened td {
+    border-bottom: 0px;
+}
+
+.pre-scrollable {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 400px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    font-size: 11px;
+    line-height: 14px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
+}
